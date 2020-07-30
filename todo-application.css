@@ -1,0 +1,32 @@
+@font-face{
+    font-family: Ubuntu;
+    src: url(Ubuntu/Ubuntu-Regular.ttf);
+}
+*{
+    font-family: Ubuntu;
+}
+.btn,#edit-logo,#delete-logo{
+    cursor: pointer;
+}
+h1{
+    color: darkslategrey;
+    display: inline-block;
+}
+#heading-image{
+    display: inline-block;
+}
+.input-group{
+    width: 70% !important ;
+}
+#page{
+    width: 50% !important;
+    text-align: left;
+}
+#edit-logo{
+    width: 40px;
+    float: right;
+}
+#delete-logo{
+    width: 38px;
+    float: right;
+}
